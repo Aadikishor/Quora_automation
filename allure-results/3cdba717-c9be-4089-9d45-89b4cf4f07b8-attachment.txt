@@ -1,0 +1,94 @@
+Error during sign-in: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//*[@id="root"]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div/div/button/div/div/div')
+    - locator resolved to <div class="q-text qu-ellipsis qu-whiteSpace--nowrap">Next</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    145 × waiting for element to be visible, enabled and stable
+        - element is not enabled
+      - retrying click action
+        - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+
+    at Signup.SIgn_In (C:\Users\2414363\OneDrive - Cognizant\Desktop\Project\tests\Signup.js:54:22)
+    at C:\Users\2414363\OneDrive - Cognizant\Desktop\Project\tests\project.spec.js:26:22 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@19',
+    location: {
+      file: 'C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\Signup.js',
+      line: 54,
+      column: 22,
+      function: 'Signup.SIgn_In'
+    },
+    category: 'pw:api',
+    title: `Click locator('//*[@id="root"]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div/div/button/div/div/div')`,
+    apiName: 'locator.click',
+    params: {
+      selector: '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div/div/button/div/div/div',
+      strict: true,
+      timeout: 0
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@19'
+    },
+    complete: [Function: complete],
+    endWallTime: 1752050898103,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('//*[@id="root"]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div/div/button/div/div/div')\x1B[22m\n` +
+        '\x1B[2m    - locator resolved to <div class="q-text qu-ellipsis qu-whiteSpace--nowrap">Next</div>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not enabled\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not enabled\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    145 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m        - element is not enabled\x1B[22m\n' +
+        '\x1B[2m      - retrying click action\x1B[22m\n' +
+        '\x1B[2m        - waiting 500ms\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m  - element was detached from the DOM, retrying\x1B[22m\n',
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('//*[@id="root"]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div/div/button/div/div/div')\x1B[22m\n` +
+        '\x1B[2m    - locator resolved to <div class="q-text qu-ellipsis qu-whiteSpace--nowrap">Next</div>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not enabled\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not enabled\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    145 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m        - element is not enabled\x1B[22m\n' +
+        '\x1B[2m      - retrying click action\x1B[22m\n' +
+        '\x1B[2m        - waiting 500ms\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m  - element was detached from the DOM, retrying\x1B[22m\n' +
+        '\n' +
+        '    at Signup.SIgn_In (C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\Signup.js:54:22)\n' +
+        '    at C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\project.spec.js:26:22',
+      cause: undefined
+    }
+  }
+}

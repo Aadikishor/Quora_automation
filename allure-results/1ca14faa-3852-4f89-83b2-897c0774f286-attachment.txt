@@ -1,0 +1,42 @@
+Test failed: locator.isVisible: Target page, context or browser has been closed
+Call log:
+    - checking visibility of locator('[aria-label="Upvote"]').first()
+
+    at Search.search (C:\Users\2414363\OneDrive - Cognizant\Desktop\Project\tests\pages\search.js:52:28)
+    at C:\Users\2414363\OneDrive - Cognizant\Desktop\Project\tests\project.spec.js:38:22 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@35',
+    location: {
+      file: 'C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\pages\\search.js',
+      line: 52,
+      column: 28,
+      function: 'Search.search'
+    },
+    category: 'pw:api',
+    title: `Is visible locator('[aria-label="Upvote"]').first()`,
+    apiName: 'locator.isVisible',
+    params: { selector: '[aria-label="Upvote"] >> nth=0', strict: true },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@35'
+    },
+    complete: [Function: complete],
+    endWallTime: 1752736826377,
+    error: {
+      message: 'Error: locator.isVisible: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m    - checking visibility of locator('[aria-label="Upvote"]').first()\x1B[22m\n`,
+      stack: 'Error: locator.isVisible: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m    - checking visibility of locator('[aria-label="Upvote"]').first()\x1B[22m\n` +
+        '\n' +
+        '    at Search.search (C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\pages\\search.js:52:28)\n' +
+        '    at C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\project.spec.js:38:22',
+      cause: undefined
+    }
+  }
+}

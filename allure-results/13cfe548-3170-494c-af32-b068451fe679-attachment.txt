@@ -1,0 +1,77 @@
+Test failed: ExpectError: Timed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: getByPlaceholder('Search Quora')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - Expect "toBeVisible" with timeout 5000ms
+  - waiting for getByPlaceholder('Search Quora')
+
+    at Search.search (C:\Users\2414363\OneDrive - Cognizant\Desktop\Project\tests\pages\search.js:296:29)
+    at C:\Users\2414363\OneDrive - Cognizant\Desktop\Project\tests\project.spec.js:239:38 {
+  matcherResult: {
+    message: '\x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeVisible\x1B[2m()\x1B[22m\n' +
+      '\n' +
+      "Locator: getByPlaceholder('Search Quora')\n" +
+      'Expected: visible\n' +
+      'Received: <element(s) not found>\n' +
+      'Call log:\n' +
+      '\x1B[2m  - Expect "toBeVisible" with timeout 5000ms\x1B[22m\n' +
+      "\x1B[2m  - waiting for getByPlaceholder('Search Quora')\x1B[22m\n",
+    pass: false,
+    actual: '<element(s) not found>',
+    name: 'toBeVisible',
+    expected: 'visible',
+    log: [
+      '  - Expect "toBeVisible" with timeout 5000ms',
+      "  - waiting for getByPlaceholder('Search Quora')"
+    ],
+    timeout: 5000
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@52',
+    category: 'expect',
+    apiName: 'expect.toBeVisible',
+    title: 'toBeVisible',
+    params: undefined,
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\pages\\search.js',
+      line: 296,
+      column: 29,
+      function: 'Search.search'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@52'
+    },
+    complete: [Function: complete],
+    endWallTime: 1752045900630,
+    error: {
+      message: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeVisible\x1B[2m()\x1B[22m\n' +
+        '\n' +
+        "Locator: getByPlaceholder('Search Quora')\n" +
+        'Expected: visible\n' +
+        'Received: <element(s) not found>\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toBeVisible" with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Search Quora')\x1B[22m\n",
+      stack: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoBeVisible\x1B[2m()\x1B[22m\n' +
+        '\n' +
+        "Locator: getByPlaceholder('Search Quora')\n" +
+        'Expected: visible\n' +
+        'Received: <element(s) not found>\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toBeVisible" with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Search Quora')\x1B[22m\n" +
+        '\n' +
+        '    at Search.search (C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\pages\\search.js:296:29)\n' +
+        '    at C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\project.spec.js:239:38',
+      cause: undefined
+    }
+  }
+}

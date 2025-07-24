@@ -1,0 +1,1 @@
+Signup failed or page closed. Skipping search.

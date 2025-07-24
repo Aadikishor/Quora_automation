@@ -1,0 +1,88 @@
+Error during sign-in: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for getByRole('button', { name: 'Next' })
+    - locator resolved to <button disabled height="38" role="button" type="button" tabindex="13" aria-disabled="true" class="q-click-wrapper puppeteer_test_modal_submit b17i7nxr b1l8alrs bobc9nh b1cg7ppz c1nud10e qu-active--textDecoration--none qu-focus--textDecoration--none qu-disabled qu-borderRadius--pill qu-alignItems--center qu-justifyContent--center qu-whiteSpace--nowrap qu-userSelect--none qu-display--inline-flex qu-bg--blue qu-tapHighlight--white qu-textAlign--center qu-cursor--pointer qu-hover--textDecoration--none">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    20 × waiting for element to be visible, enabled and stable
+       - element is not enabled
+     - retrying click action
+       - waiting 500ms
+
+    at Signup.SIgn_In (C:\Users\2414363\OneDrive - Cognizant\Desktop\Project\tests\Signup.js:163:23)
+    at C:\Users\2414363\OneDrive - Cognizant\Desktop\Project\tests\project.spec.js:230:22 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@16',
+    location: {
+      file: 'C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\Signup.js',
+      line: 163,
+      column: 23,
+      function: 'Signup.SIgn_In'
+    },
+    category: 'pw:api',
+    title: "Click getByRole('button', { name: 'Next' })",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:role=button[name="Next"i]',
+      strict: true,
+      timeout: 0
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@16'
+    },
+    complete: [Function: complete],
+    endWallTime: 1751631387225,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('button', { name: 'Next' })\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <button disabled height="38" role="button" type="button" tabindex="13" aria-disabled="true" class="q-click-wrapper puppeteer_test_modal_submit b17i7nxr b1l8alrs bobc9nh b1cg7ppz c1nud10e qu-active--textDecoration--none qu-focus--textDecoration--none qu-disabled qu-borderRadius--pill qu-alignItems--center qu-justifyContent--center qu-whiteSpace--nowrap qu-userSelect--none qu-display--inline-flex qu-bg--blue qu-tapHighlight--white qu-textAlign--center qu-cursor--pointer qu-hover--textDecoration--none">…</button>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not enabled\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not enabled\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    20 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m       - element is not enabled\x1B[22m\n' +
+        '\x1B[2m     - retrying click action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n',
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('button', { name: 'Next' })\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <button disabled height="38" role="button" type="button" tabindex="13" aria-disabled="true" class="q-click-wrapper puppeteer_test_modal_submit b17i7nxr b1l8alrs bobc9nh b1cg7ppz c1nud10e qu-active--textDecoration--none qu-focus--textDecoration--none qu-disabled qu-borderRadius--pill qu-alignItems--center qu-justifyContent--center qu-whiteSpace--nowrap qu-userSelect--none qu-display--inline-flex qu-bg--blue qu-tapHighlight--white qu-textAlign--center qu-cursor--pointer qu-hover--textDecoration--none">…</button>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not enabled\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not enabled\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    20 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m       - element is not enabled\x1B[22m\n' +
+        '\x1B[2m     - retrying click action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n' +
+        '\n' +
+        '    at Signup.SIgn_In (C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\Signup.js:163:23)\n' +
+        '    at C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\project.spec.js:230:22',
+      cause: undefined
+    }
+  }
+}

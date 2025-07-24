@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "topic": "Automation",
+      "title_match": false,
+      "screenshot_path": "screenshots/Automation_result.png",
+      "timestamp": "2025-07-09T12:01:25.268Z",
+      "outcome": "Failure"
+    },
+    {
+      "topic": "Testing",
+      "title_match": false,
+      "screenshot_path": "screenshots/Testing_result.png",
+      "timestamp": "2025-07-09T12:01:32.163Z",
+      "outcome": "Failure"
+    },
+    {
+      "topic": "Agile",
+      "title_match": false,
+      "screenshot_path": "screenshots/Agile_result.png",
+      "timestamp": "2025-07-09T12:01:38.896Z",
+      "outcome": "Failure"
+    },
+    {
+      "topic": "Scrum",
+      "title_match": false,
+      "screenshot_path": "screenshots/Scrum_result.png",
+      "timestamp": "2025-07-09T12:01:45.547Z",
+      "outcome": "Failure"
+    }
+  ]
+}

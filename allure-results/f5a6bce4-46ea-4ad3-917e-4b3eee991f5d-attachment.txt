@@ -1,0 +1,34 @@
+Error during sign-in: page.waitForTimeout: Target page, context or browser has been closed
+    at Signup.SIgn_In (C:\Users\2414363\OneDrive - Cognizant\Desktop\Project\tests\Signup.js:69:23)
+    at C:\Users\2414363\OneDrive - Cognizant\Desktop\Project\tests\project.spec.js:27:22 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@18',
+    location: {
+      file: 'C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\Signup.js',
+      line: 69,
+      column: 23,
+      function: 'Signup.SIgn_In'
+    },
+    category: 'pw:api',
+    title: 'Wait for timeout',
+    apiName: 'page.waitForTimeout',
+    params: { timeout: 4000 },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@18'
+    },
+    complete: [Function: complete],
+    endWallTime: 1752735298106,
+    error: {
+      message: 'Error: page.waitForTimeout: Target page, context or browser has been closed',
+      stack: 'Error: page.waitForTimeout: Target page, context or browser has been closed\n' +
+        '    at Signup.SIgn_In (C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\Signup.js:69:23)\n' +
+        '    at C:\\Users\\2414363\\OneDrive - Cognizant\\Desktop\\Project\\tests\\project.spec.js:27:22',
+      cause: undefined
+    }
+  }
+}
