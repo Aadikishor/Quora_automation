@@ -10,6 +10,9 @@ import { PostActions } from "./PostActions";
 const topicsPath = path.join(__dirname, "searchTopics.json");
 const searchTopics = JSON.parse(fs.readFileSync(topicsPath, "utf-8")).topics;
 const resultsLog = [];
+test('kishore',async()=>{
+  console.log("kishore");
+})
 
 
 // Main test for  user signing in, performing searches, and interacting with the page
